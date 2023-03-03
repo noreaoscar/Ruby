@@ -1,5 +1,5 @@
 a = 5;
-b = " puto"
+b = " string"
 
 puts a.to_f; 
 
