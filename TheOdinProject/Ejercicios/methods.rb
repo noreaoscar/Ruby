@@ -11,3 +11,34 @@ lengthName = name.length
 puts "Thank you " + name + " " + lastName + "."
 puts lengthName
 
+
+#You can create your own custom methods in Ruby using the following syntax: 
+
+def my_name
+    "Joe Smith"
+end
+
+puts my_name
+
+puts ""
+
+def greet(name)
+    "Hello, " + name + "!"
+end
+puts greet("Jhon")
+
+puts ""
+
+def even_odd(number)
+    if number % 2 == 0
+        "#{number} That is an even number."
+    else
+        "#{number} That is an odd number."
+    end
+end
+
+puts even_odd(13)
+puts even_odd(12)
+
+
+
